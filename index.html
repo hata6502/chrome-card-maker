@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+      "
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://card.hata6502.com/favicon.png" />
+    <meta
+      property="og:title"
+      content="card maker - Make card from text with Android Chrome"
+    />
+    <meta property="og:url" content="https://card.hata6502.com/" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="apple-touch-icon" href="favicon.png" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <title>card maker</title>
+  </head>
+
+  <body>
+    <h1>card maker</h1>
+    <p>Make card from text with Android Chrome</p>
+
+    <div>
+      <label for="input">Input text here. </label><br />
+      <textarea id="input" rows="5"></textarea>
+    </div>
+
+    <br />
+
+    <div>
+      <label for="output">Select the output text. </label><br />
+      <button id="select-button" type="button">Select all text</button><br />
+      <textarea id="output" disabled rows="5"></textarea>
+    </div>
+
+    <br />
+
+    <p>
+      Tap share button and crate card.
+      <a
+        href="https://support.google.com/chrome/answer/10256233?co=GENIE.Platform%3DAndroid&oco=1"
+        rel="noreferrer"
+        target="_blank"
+        >Google Chrome Help</a
+      >
+    </p>
+    <script type="module" src="index.mjs"></script>
+  </body>
+</html>
