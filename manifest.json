@@ -1,0 +1,15 @@
+{
+  "lang": "en-US",
+  "name": "card maker",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    }
+  ]
+}
