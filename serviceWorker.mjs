@@ -1,6 +1,7 @@
-const cacheName = "v1";
+const cacheName = "v2";
 
 const requests = [
+  "/",
   "/favicon.png",
   "/manifest.json",
   "/index.css",
